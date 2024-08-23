@@ -22,7 +22,7 @@ while(calcwhile):
         case "sqrt":
            print(math.sqrt(n1))
         case "square":
-            if(n1<=0):
+            if(n1<0):
                 print("pick a postive number")
             else:
                 print(n1*n1)
